@@ -1,0 +1,32 @@
+/* pages/config/config.wxss */
+page {
+  background-color: lightblue;
+}
+.section-title{
+  background-color: dodgerblue;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: black;
+  font-family: 黑体, 宋体;
+  font-size: 20px;
+  padding-left: 10rpx;
+  margin-top: 20rpx;
+}
+.section-title switch{
+  float: right;
+}
+.section-stage-time{
+  margin-top: 10rpx;
+}
+.lilun-time-limit{
+  color:black;
+}
+.stage-alarm{
+  margin-top: 10rpx;
+}
+.stage-alarm-radio{
+  margin-top: 10rpx;
+}
+.stage-alarm-radio label {
+  margin-left: 15rpx;
+}

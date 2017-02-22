@@ -1,0 +1,6 @@
+<view class="page-body">
+    <import src="section-template.wxml" />
+    <block wx:for="{{stages}}">
+    <template is="section-stage" data="{{...item, stageId:index, bindSwitch:'switchStage', changeTimeLimit: 'changeStageTimeLimit', bindRadio: 'changeStageAlarm'}}"/>
+    </block>
+</view>

@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/config/config"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#669999",
+    "navigationBarTitleText": "辩论赛时钟APP",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "tabBar": {
+    "backgroundColor": "#669999",
+    "color": "#000000",
+    "selectedColor": "#663300",
+    "list": [{
+      "iconPath": "images/clock-opacity-0.png",
+      "selectedIconPath": "images/clock-white-bg.png",
+      "pagePath": "pages/index/index",
+      "text": "计时"
+    }, 
+    {
+      "iconPath": "images/clock-opacity-0.png",
+      "selectedIconPath": "images/clock-white-bg.png",
+      "pagePath": "pages/config/config",
+      "text": "设置"
+    }]
+  }
+}

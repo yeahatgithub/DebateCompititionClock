@@ -1,0 +1,19 @@
+<template name="section-stage">
+    <view class="section" >
+        <view class="section-title">
+            {{stageName}}<switch  checked="false" id="{{stageId}}" bindchange="{{bindSwitch}}"/>
+        </view>
+        <view class="section-stage-time">
+            <text class="stage-time-limit-label">时间限制（秒）</text>
+            <slider class="stage-time-limit" id="{{stageId}}" bindchange="{{changeTimeLimit}}" color="black" show-value/>
+        </view>
+        <view class="stage-alarm">
+            <text class="stage-alarm-label">声音提醒</text>
+            <radio-group class="stage-alarm-radio" id="{{stageId}}" bindchange="{{bindRadio}}">
+                <label><radio value="15" checked="true"/>提前15秒</label>
+                <label><radio value="10" />提前10秒</label>
+                <label><radio value="5" />提前5秒</label>
+            </radio-group>
+        </view>
+    </view>
+</template>
